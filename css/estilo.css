@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../assets/Img/FOTOS/fondo-de-wapp_Mesa-de-trabajo-1-1-scaled-1.jpg);
+    color: #ffffff;
+    background-size: cover;
+}
+
+nav{
+    text-align: center;
+}
+.menu{
+    list-style-type: none;
+    background-color: rgba(255, 255, 255, 0.466);
+    padding: 0;
+    width: 650px;
+    margin: 50px auto;
+    border-radius: 20px;
+}
+.menu .item{
+    display: inline-block;
+    position: relative;
+    font-size: 1.5rem;
+}
+.menu .item a{
+    color:#ffffff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+}
+.section1{
+    text-align: center;
+    font-size: 25px;
+    color: #ffffff;
+    margin: 50px auto;
+    width: 60%;
+    margin-bottom: 15px;
+    margin-top: 100px;
+    line-height: 2rem;
+
+}
+.blanco img{
+    border-radius: 20px;
+    width: 1000px;
+    position: relative;
+    margin-left: 200px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.pie{
+    text-align: right;
+    margin-right: 225px;
+    margin-bottom: 100px;
+    margin-top: 0px;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: normal;
+}
+.exp{
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.cuadro{
+    margin: auto;
+    width: 400px;
+    height: 300px;
+}
+legend{
+    font-size: 20px;
+    background-color: #fffbfb56;
+    border-radius: 0px;
+    margin-bottom: 10px;
+    margin: 10px;
+    margin-top: 30px;
+    color: #ffffff;
+}
+form label{
+    background-color: #ffffff86;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.boton{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.creador{
+    color: #cfcfcf;
+    text-align: right;
+    font-size: 15px;    
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.uno{
+    margin-left: 5px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff8c;
+    width: 225px;
+    font-size: 20px;
+    bottom: 0;
+}
+h1{
+    text-align: center;
+    padding: 10px;
+    margin: 0px;
+}
+.listasplantel{
+    margin-left: 40px;
+    width: 400px;
+    font-size: 30px;
+    margin-top: 50px;
+}
+.arquero{
+    margin: 20px;
+    font-size: 20px;
+}
+.defensores{
+    margin: 20px;
+    font-size: 20px;
+}
+.medio{
+    margin: 20px;
+    font-size: 20px;
+}
+.delantero{
+    margin: 20px;
+    font-size: 20px;
+}
+.cp{
+    margin: 20px;
+    font-size: 20px;
+}
+.plantel{
+    font-size: 40px;
+    margin-top: 40px;
+    margin-left: 10px;
+    text-decoration: underline;
+}
+.prox{
+    background-color: #ffffffac;
+    width: 300px;
+    font-size: 30px;
+    margin: 10px;
+    color: #ffffff;
+}
+.cancha img{
+    margin-left: 350px;
+    width: 700px;
+    border-radius: 20px;
+}
+.estadio{
+    text-align: center;
+    margin: 10px auto;
+}
+h2, h3{
+    font-family: 'Comfortaa', cursive;
+}
+.libertadores img{
+    width: 150px;
+    margin-left: 200px;
+}
+.hislali{
+    text-align: left;
+    font-size: 20px;
+    width: 800px;
+    margin: 20px;
+    margin-top: 60px;
+}
+.teximagen{
+    display: flex;
+}
+.titulocopa{
+    margin: 10px;
+    margin-top: 30px;
+    font-size: 30px;
+}
+.imasuda img{
+    width: 300px;
+    margin-left: 130px;
+}
+.titulocopasuda{
+    margin: 10px;
+    margin-top: 30px;
+    font-size: 30px;
+}
+.superco img{
+    width: 150px;
+    margin-left: 225px;
+}
+.fin{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 700px;
+    margin-left: 350px;
+}
+.elunico{
+    text-align: center;
+    font-size: 40px;
+}
+.titavellaneda{
+    margin: 10px;
+    font-size: 40px;
+    margin-top: 40px;
+    width: 400px;
+}
+.datossedea{
+    margin: 10px;
+    width: 400px;
+    font-size: 30px;
+}
+.sedeboya{
+    margin: 10px;
+    font-size: 40px;
+    margin-top: 40px;
+    width: 400px;
+}
+.datosedeboya{
+    margin: 10px;
+    width: 400px;
+    font-size: 30px;
+}
+.volver{
+    position: absolute;
+    bottom: 0;
+}
+.volver a{
+    margin-left: 5px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff8c;
+    width: 225px;
+    font-size: 20px;
+    bottom: 0;
+}
+.dossedes{
+    text-align: center;
+    margin-left: 500px;
+}
+.titulosede{
+    font-size: 50px;
+    text-decoration: underline;
+}
