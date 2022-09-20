@@ -31,6 +31,11 @@ nav{
     display: inline-block;
     padding: 20px;
 }
+.menu .item a:hover{
+    background-color: rgba(237, 0, 0, 0.801);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
 .section1{
     text-align: center;
     font-size: 25px;
@@ -39,8 +44,7 @@ nav{
     width: 60%;
     margin-bottom: 15px;
     margin-top: 100px;
-    line-height: 2rem;
-
+    line-height: 3rem;
 }
 .blanco img{
     border-radius: 20px;
@@ -49,6 +53,12 @@ nav{
     margin-left: 200px;
     margin-bottom: 0px;
     margin-top: 0px;
+    opacity: .8;
+    border: 2px double rgb(255, 255, 255);
+}
+.blanco img:hover{
+    opacity: 1;
+    border: solid white 2px;
 }
 .pie{
     text-align: right;
