@@ -102,18 +102,21 @@ form label{
     color: #cfcfcf;
     text-align: right;
     font-size: 15px;    
-    position: fixed;
     width: 100%;
     bottom: 0;
 }
 .uno{
-    margin-left: 5px;
+    color: white;
     font-size: 20px;
-    color: rgb(0, 0, 0);
-    background-color: #ffffff8c;
-    width: 225px;
-    font-size: 20px;
-    bottom: 0;
+    text-align: left;
+    margin-right: 90%;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.flecha img{
+    width: 40px;
+    margin-top: 20px;
+    margin-right: 90%;
 }
 h1{
     text-align: center;
@@ -121,52 +124,66 @@ h1{
     margin: 0px;
 }
 .listasplantel{
-    margin-left: 40px;
-    width: 400px;
-    font-size: 30px;
-    margin-top: 50px;
+margin-top: 20px;
+text-align: center;
+font-size: 30px;
+color: white;
 }
 .arquero{
     margin: 20px;
     font-size: 20px;
+    list-style-type: none;
 }
 .defensores{
     margin: 20px;
     font-size: 20px;
+    list-style-type: none;
 }
 .medio{
     margin: 20px;
     font-size: 20px;
+    list-style-type: none;
 }
 .delantero{
     margin: 20px;
     font-size: 20px;
+    list-style-type: none;
 }
 .cp{
-    margin: 20px;
     font-size: 20px;
+    margin-right: 50px;
+    list-style-type: none;
 }
 .plantel{
     font-size: 40px;
     margin-top: 40px;
     margin-left: 10px;
     text-decoration: underline;
+    color: white;
+    text-align: center;
 }
 .prox{
     background-color: #ffffffac;
-    width: 300px;
-    font-size: 30px;
-    margin: 10px;
+    width: 250px;
+    font-size: 25px;
+    margin: 5px;
     color: #ffffff;
+    border-radius: 10px;
 }
 .cancha img{
-    margin-left: 350px;
     width: 700px;
     border-radius: 20px;
+    transition: all 2S;
+    margin-left: 350px;
+}
+.cancha img:hover{
+    width: 650px;
+    margin-left: 380PX;
 }
 .estadio{
     text-align: center;
     margin: 10px auto;
+    color: white;
 }
 h2, h3{
     font-family: 'Comfortaa', cursive;
@@ -257,4 +274,15 @@ h2, h3{
 .titulosede{
     font-size: 50px;
     text-decoration: underline;
+}
+.info{
+    color: white;
+}
+.arqu{
+    width: 800px;
+    text-align: center;
+    margin-left: 590px;
+}
+.listasnone{
+    list-style-type: none;
 }
