@@ -189,15 +189,20 @@ h2, h3{
     font-family: 'Comfortaa', cursive;
 }
 .libertadores img{
-    width: 150px;
+    width: 120px;
     margin-left: 200px;
+    transition: all 2s;
+}
+.libertadores img:hover{
+    width: 100px;
 }
 .hislali{
     text-align: left;
     font-size: 20px;
     width: 800px;
     margin: 20px;
-    margin-top: 60px;
+    margin-top: 80px;
+    margin-bottom: 150px;
 }
 .teximagen{
     display: flex;
@@ -208,8 +213,12 @@ h2, h3{
     font-size: 30px;
 }
 .imasuda img{
-    width: 300px;
+    width: 250px;
     margin-left: 130px;
+    transition: all 2s;
+}
+.imasuda img:hover{
+    transform: rotate(45deg);
 }
 .titulocopasuda{
     margin: 10px;
@@ -219,6 +228,45 @@ h2, h3{
 .superco img{
     width: 150px;
     margin-left: 225px;
+    transition: all 2s;
+}
+.superco img:hover{
+    transform: scale(1.2, 1.2);
+}
+.hissupercopasuda{
+    margin-top: 50px;
+}
+.imarecopa img{
+    width: 250px;
+    margin-left: 140px;
+    transition: all 2s;
+}
+.imarecopa img:hover{
+    width: 220px;
+}
+.hisrecopa{
+    margin-bottom: 50px;
+}
+.imainter img{
+    width: 300px;
+    margin-left: 100px;
+    transition: all 2s;
+}
+.imainter img:hover{
+    transform: rotate(45deg);
+
+}
+.imacopamundo img{
+    width: 130px;
+    margin-left: 240px;
+    margin-bottom: 200px;
+    transition: all 2s;
+}
+.imacopamundo img:hover{
+    width: 100px;
+}
+.hiscopamundo{
+    margin-bottom: 200px;
 }
 .fin{
     text-align: center;
@@ -285,4 +333,8 @@ h2, h3{
 }
 .listasnone{
     list-style-type: none;
+}
+.unavida{
+    font-size: 50px;
+    margin-bottom: 200px;
 }
