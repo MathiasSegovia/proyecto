@@ -92,11 +92,6 @@ form label{
     color: white;
     font-size: 25px;
 }
-.formasoc{
-    background-color: #0a090985;
-    width: 500px;
-    margin-left: 470px;
-}
 .creador{
     color: #cfcfcf;
     text-align: right;
@@ -277,25 +272,19 @@ h2, h3{
     font-size: 40px;
 }
 .titavellaneda{
-    margin: 10px;
     font-size: 40px;
     margin-top: 40px;
-    width: 400px;
 }
 .datossedea{
-    margin: 10px;
-    width: 400px;
+    margin-top: 10px;
     font-size: 30px;
 }
 .sedeboya{
-    margin: 10px;
     font-size: 40px;
     margin-top: 40px;
-    width: 400px;
 }
 .datosedeboya{
-    margin: 10px;
-    width: 400px;
+    margin-top: 10px;
     font-size: 30px;
 }
 .volver{
@@ -313,7 +302,6 @@ h2, h3{
 }
 .dossedes{
     text-align: center;
-    margin-left: 500px;
 }
 .titulosede{
     font-size: 50px;
