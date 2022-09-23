@@ -72,7 +72,7 @@ nav{
 .exp{
     color: #ffffff;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 100px;
 }
 .cuadro{
     margin: auto;
@@ -89,14 +89,13 @@ legend{
     color: #ffffff;
 }
 form label{
-    background-color: #ffffff86;
-    font-size: 20px;
-    margin-left: 10px;
+    color: white;
+    font-size: 25px;
 }
-.boton{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+.formasoc{
+    background-color: #0a090985;
+    width: 500px;
+    margin-left: 470px;
 }
 .creador{
     color: #cfcfcf;
@@ -232,9 +231,6 @@ h2, h3{
 }
 .superco img:hover{
     transform: scale(1.2, 1.2);
-}
-.hissupercopasuda{
-    margin-top: 50px;
 }
 .imarecopa img{
     width: 250px;
