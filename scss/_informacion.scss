@@ -1,0 +1,57 @@
+.plantel{
+    font-size: 40px;
+    margin-top: 40px;
+    margin-left: 10px;
+    text-decoration: underline;
+    color: $blanco;
+    text-align: center;
+}
+.listasplantel{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    color: $blanco;
+.jugador{
+    margin: 20px;
+    font-size: 20px;
+    list-style-type: none;
+}
+.cp{
+    font-size: 20px;
+    margin-right: 50px;
+    list-style-type: none;
+}
+}
+.prox{
+    text-align: left;
+    a{
+     background-color: #ffffffac;
+     font-size: 25px;
+     margin: 5px;
+     border-radius: 10px;
+     text-decoration: none;
+     padding: 5px;
+     &:hover{
+        color: rgb(229, 0, 0);
+     }
+     &:visited{
+        color: rgb(0, 0, 0);
+    }
+    }
+}
+.estadio{
+    text-align: center;
+    margin: 10px;
+    color: $blanco;
+    margin-top: 50px;
+}
+.cancha img{
+    width: 65%;
+    border-radius: 20px;
+    transition: all 2s;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    &:hover{
+        width: 55%;
+    }
+}

@@ -1,0 +1,31 @@
+header{
+    width: 100%;
+    top: 0;
+    nav{
+        text-align: center;
+        .menu{
+            list-style-type: none;
+            background-color: rgba(255, 255, 255, 0.466);
+            padding: 0;
+            width: 65%;
+            margin: 50px auto;
+            border-radius: 20px;
+            .item{
+                display: inline-block;
+                position: relative;
+                font-size: 1.5rem;
+                a{
+                color: $blanco;
+                text-decoration: none;
+                display: inline-block;
+                padding: 20px;
+                &:hover{
+                    background-color: rgba(237, 0, 0, 0.801);
+                    color: $blanco;
+                    border-radius: 10px;
+                    }
+                }
+            }
+        }
+    }
+}

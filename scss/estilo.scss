@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$blanco: white;
+$size-font: 25px;
+body{
+    background-image: url(../assets/Img/FOTOS/fondo-de-wapp_Mesa-de-trabajo-1-1-scaled-1.jpg);
+    background-repeat: no-repeat;
+    color: $blanco;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    padding: 10px;
+    margin: 0px;
+    color: $blanco;
+}
+h2, h3{
+    font-family: 'Comfortaa', cursive;
+}
+@import "header";
+.title{
+    text-align: center;
+    font-size: $size-font;
+    color: $blanco;
+    margin: 50px auto;
+    width: 60%;
+    margin-bottom: 15px;
+    margin-top: 100px;
+    line-height: 3rem;
+}
+.blanco img{
+    border-radius: 20px;
+    width: 75%;
+    opacity: .8;
+    border: 2px double $blanco;
+    &:hover{
+        opacity: 1;
+        border: solid $blanco 2px;
+    }
+}
+@import "informacion";
+@import "nuestrahistoria";
+.exp{
+    color: $blanco;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.titulosede{
+    font-size: ($size-font * 2);
+    text-decoration: underline;
+}
+div{
+    .sede{
+        font-size: ($size-font + 10);
+        margin-top: 40px;
+    }
+    .datossede{
+        margin-top: 10px;
+        font-size: $size-font;
+        margin-bottom: 350px;
+    }
+}
+.pie{
+    text-align: right;
+    margin-right: 225px;
+    margin-bottom: 100px;
+    margin-top: 0px;
+    color: $blanco;
+    font-size: ($size-font - 10);
+    font-weight: normal;
+}
+.creador{
+    color: #cfcfcf;
+    text-align: right;
+    font-size: ($size-font - 10);    
+    bottom: 0;
+    margin-right: 5px;
+}
+.uno{
+    color: $blanco;
+    font-size: ($size-font - 5);
+    text-align: left;
+    margin-right: 90%;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+div{
+    .flecha img{
+        width: 40px;
+        margin-top: 20px;
+        margin-right: 90%;
+        margin: 0;
+    }
+}
+.footersedes{
+    left: 0%;
+    bottom: 0%;
+}
