@@ -145,6 +145,7 @@ header {
     width: 180px; }
 
 .imainter img {
+  height: auto;
   width: 150px;
   transition: all 2s; }
   .imainter img:hover {

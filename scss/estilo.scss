@@ -6,6 +6,10 @@
 
 $blanco: white;
 $size-font: 25px;
+@mixin sizes($width, $height){
+    height: $height;
+    width: $width;
+}
 body{
     background-image: url(../assets/Img/FOTOS/fondo-de-wapp_Mesa-de-trabajo-1-1-scaled-1.jpg);
     background-repeat: no-repeat;
