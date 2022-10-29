@@ -116,37 +116,38 @@ header {
 
 .unavida {
   font-size: 50px;
-  margin-bottom: 200px; }
+  margin-bottom: 100px; }
 
 .titulocopa {
-  margin: 10px;
-  margin-top: 30px;
+  margin: 35px;
   font-size: 30px; }
 
 .teximagen p {
-  margin-left: 10px; }
+  margin-left: 10px;
+  margin: 30px;
+  font-size: 15px; }
 
 .libertadores img {
   width: 100px;
   transition: all 2s; }
   .libertadores img:hover {
-    width: 90px; }
+    width: 85px; }
 
 .imasuda img {
-  width: 150px;
+  width: 170px;
   transition: all 2s; }
   .imasuda img:hover {
     transform: rotate(45deg); }
 
 .imarecopa img {
-  width: 150px;
+  width: 200px;
   transition: all 2s; }
   .imarecopa img:hover {
-    width: 180px; }
+    transform: scale(1.2, 1.2); }
 
 .imainter img {
   height: auto;
-  width: 150px;
+  width: 200px;
   transition: all 2s; }
   .imainter img:hover {
     transform: rotate(45deg); }
@@ -161,11 +162,12 @@ header {
   width: 100px;
   transition: all 2s; }
   .imacopamundo img:hover {
-    width: 80px; }
+    transform: scale(0.8, 0.8); }
 
 .elunico {
   text-align: center;
-  font-size: 40px; }
+  font-size: 40px;
+  margin-top: 100px; }
 
 .fin {
   text-align: center;

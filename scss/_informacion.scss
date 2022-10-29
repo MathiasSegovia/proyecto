@@ -1,5 +1,5 @@
 .plantel{
-    font-size: 40px;
+    font-size: ($size-font + 15);
     margin-top: 40px;
     margin-left: 10px;
     text-decoration: underline;
@@ -9,15 +9,15 @@
 .listasplantel{
     margin-top: 20px;
     text-align: center;
-    font-size: 30px;
+    font-size: ($size-font + 5);
     color: $blanco;
 .jugador{
     margin: 20px;
-    font-size: 20px;
+    font-size: ($size-font - 5);
     list-style-type: none;
 }
 .cp{
-    font-size: 20px;
+    font-size: ($size-font - 5);
     margin-right: 50px;
     list-style-type: none;
 }
@@ -26,7 +26,7 @@
     text-align: left;
     a{
      background-color: #ffffffac;
-     font-size: 25px;
+     font-size: $size-font;
      margin: 5px;
      border-radius: 10px;
      text-decoration: none;

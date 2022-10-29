@@ -1,41 +1,42 @@
 
 .unavida{
     font-size: ($size-font * 2);
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 .titulocopa{
-    margin: 10px;
-    margin-top: 30px;
+    margin: 35px;
     font-size: ($size-font + 5);
 }
 .teximagen{
     p{
         margin-left: 10px;
+        margin: 30px;
+        font-size: ($size-font - 10);
     }
 }
 .libertadores img{
         width: 100px;
         transition: all 2s;
         &:hover{
-            width: 90px;
+            width: 85px;
         }
     }
 .imasuda img{
-        width: 150px;
+        width: 170px;
         transition: all 2s;
         &:hover{
             transform: rotate(45deg)
         }
     }
 .imarecopa img{
-         width: 150px;
+        width: 200px;
         transition: all 2s;
         &:hover{
-            width: 180px;
+            transform: scale(1.2, 1.2);
         }
     }
 .imainter img{
-        @include sizes (150px, auto);
+        @include sizes (200px, auto);
         transition: all 2s;
         &:hover{
         transform: rotate(45deg);
@@ -52,16 +53,16 @@
         width: 100px;
         transition: all 2s;
         &:hover{
-            width: 80px;
+            transform: scale(0.8, 0.8);
         }
     }
 .elunico{
     text-align: center;
     font-size: ($size-font + 15);
+    margin-top: 100px;
 }
 .fin{
     text-align: center;
     font-size: ($size-font + 5);
     margin: 50px;
 }
-
